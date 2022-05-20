@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(37,17,17,1) 94%, rgba(33,21,21,1) 97%);
+}
+
+.logo-image {
+    height: 70px;
+    width: 70px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+main {
+    border-top: 1px solid rgba(233, 224, 224, 0.527);
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+.filmes {
+    margin: auto;
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.series {
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.poster-img {
+    width: 292px;
+    height: 471px;
+}
+
